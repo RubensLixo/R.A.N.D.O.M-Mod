@@ -1,18 +1,79 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "RandomPart1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_part_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random/models/item/random_part_1.json",
+          "src/main/java/net/mcreator/random/item/RandomPart1Item.java"
+        ]
+      },
+      "path": "~/BuildersDream"
+    },
+    {
+      "name": "RandomPart2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_part_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/random/item/RandomPart2Item.java",
+          "src/main/resources/assets/random/models/item/random_part_2.json"
+        ]
+      },
+      "path": "~/PotatoKingOfGods"
+    },
+    {
+      "name": "RandomPart1Tab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_part_1_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/BuildersDream"
+    },
+    {
+      "name": "RandomPart2Tab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_part_2_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/PotatoKingOfGods"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.random.random_part_2": "Random Part 2",
+      "item_group.random.random_part_2_tab": "R.A.N.D.O.M Part-2",
+      "item.random.random_part_1": "Random Part 1",
+      "item_group.random.random_part_1_tab": "R.A.N.D.O.M Part-1"
+    }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
         "name": "BuildersDream",
-        "children": []
+        "children": [
+          {
+            "name": "The Lucky God",
+            "children": []
+          }
+        ]
       },
       {
         "name": "PotatoKingOfGods",
