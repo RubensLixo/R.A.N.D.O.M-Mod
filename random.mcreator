@@ -1,19 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "ErasedFromExistence",
-      "type": "damagetype",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "erased_from_existence",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/random/damage_type/erased_from_existence.json"
-        ]
-      },
-      "path": "~/PotatoKingOfGods"
-    },
-    {
       "name": "DiyRightclicked",
       "type": "procedure",
       "compiles": true,
@@ -49,6 +36,69 @@
         ]
       },
       "path": "~/PotatoKingOfGods"
+    },
+    {
+      "name": "ErasedFromExistence",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erased_from_existence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random/damage_type/erased_from_existence.json"
+        ]
+      },
+      "path": "~/PotatoKingOfGods"
+    },
+    {
+      "name": "RandomPart1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_part_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/random/item/RandomPart1Item.java",
+          "src/main/resources/assets/random/models/item/random_part_1.json"
+        ]
+      },
+      "path": "~/BuildersDream"
+    },
+    {
+      "name": "RandomPart2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_part_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random/models/item/random_part_2.json",
+          "src/main/java/net/mcreator/random/item/RandomPart2Item.java"
+        ]
+      },
+      "path": "~/PotatoKingOfGods"
+    },
+    {
+      "name": "RandomPart1Tab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_part_1_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/BuildersDream"
+    },
+    {
+      "name": "RandomPart2Tab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_part_2_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/PotatoKingOfGods"
     }
   ],
   "variable_elements": [],
@@ -56,23 +106,23 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {
-      "death.attack.erased_from_existence": "%1$s has been erased from existence",
-      "item.random.diy": "Destroy It",
-      "death.attack.erased_from_existence.item": "%1$s has been erased from existence",
-      "death.attack.erased_from_existence.player": "%1$s has been erased from existence"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",
     "children": [
       {
-        "name": "BuildersDream",
+        "name": "PotatoKingOfGods",
         "children": []
       },
       {
-        "name": "PotatoKingOfGods",
-        "children": []
+        "name": "BuildersDream",
+        "children": [
+          {
+            "name": "The Lucky God",
+            "children": []
+          }
+        ]
       }
     ]
   },

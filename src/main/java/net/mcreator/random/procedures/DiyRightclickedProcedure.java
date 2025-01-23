@@ -1,19 +1,6 @@
 package net.mcreator.random.procedures;
 
-import net.minecraft.world.phys.Vec3;
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.entity.projectile.Projectile;
-import net.minecraft.world.entity.projectile.Arrow;
-import net.minecraft.world.entity.projectile.AbstractArrow;
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EntityType;
-import net.minecraft.world.entity.Entity;
-import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.core.registries.Registries;
+import net.neoforged.bus.api.Event;
 
 public class DiyRightclickedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -56,8 +43,8 @@ public class DiyRightclickedProcedure {
 			}
 		} else if (Math.random() >= 0.6) {
 			for (int index0 = 0; index0 < 20; index0++) {
-				entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("random:erased_from_existence")))), 10000000000000);
-				entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("random:erased_from_existence")))), 1);
+				entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("random:deleted_mod_element")))), 10000000000000);
+				entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("random:deleted_mod_element")))), 1);
 			}
 		}
 	}
