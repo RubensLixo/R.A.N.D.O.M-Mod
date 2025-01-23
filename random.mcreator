@@ -9,7 +9,16 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "BuildersDream",
+        "children": []
+      },
+      {
+        "name": "PotatoKingOfGods",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "random",
