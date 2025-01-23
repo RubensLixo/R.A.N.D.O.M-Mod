@@ -99,6 +99,18 @@
         "files": []
       },
       "path": "~/PotatoKingOfGods"
+    },
+    {
+      "name": "Randomcorerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomcorerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random/recipe/randomcorerecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

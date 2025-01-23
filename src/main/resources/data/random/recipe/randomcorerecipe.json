@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:music_disc_11"
+    },
+    "b": {
+      "item": "minecraft:recovery_compass"
+    },
+    "c": {
+      "item": "minecraft:sniffer_egg"
+    },
+    "d": {
+      "item": "minecraft:tadpole_bucket"
+    },
+    "e": {
+      "tag": "minecraft:small_flowers"
+    },
+    "f": {
+      "item": "minecraft:dead_brain_coral_block"
+    },
+    "g": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "h": {
+      "item": "minecraft:waxed_weathered_cut_copper_stairs"
+    },
+    "i": {
+      "item": "minecraft:suspicious_stew"
+    }
+  },
+  "result": {
+    "id": "minecraft:barrier",
+    "count": 1
+  }
+}
