@@ -18,6 +18,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.random.init.RandomModTabs;
 import net.mcreator.random.init.RandomModItems;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
@@ -39,6 +40,8 @@ public class RandomMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		RandomModItems.REGISTRY.register(modEventBus);
+
+		RandomModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

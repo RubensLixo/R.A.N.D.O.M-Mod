@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.BARRIER"
+      "value": "CUSTOM:RandomCore"
     },
     "name": "randomcorerecipe",
     "namespace": "mod"

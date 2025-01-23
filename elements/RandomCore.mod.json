@@ -3,14 +3,18 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minecraft:blaze_rod",
+    "texture": "randomcore",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Penis",
-    "rarity": "COMMON",
-    "creativeTabs": [],
-    "stackSize": 64,
+    "name": "Random Core",
+    "rarity": "EPIC",
+    "creativeTabs": [
+      {
+        "value": "MATERIALS"
+      }
+    ],
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -19,8 +23,8 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,

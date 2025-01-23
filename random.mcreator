@@ -113,18 +113,17 @@
       }
     },
     {
-      "name": "Penis",
+      "name": "RandomCore",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "penis",
+      "registry_name": "random_core",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random/models/item/penis.json",
-          "src/main/java/net/mcreator/random/item/PenisItem.java"
+          "src/main/resources/assets/random/models/item/random_core.json",
+          "src/main/java/net/mcreator/random/item/RandomCoreItem.java"
         ]
-      },
-      "path": "~/BuildersDream"
+      }
     }
   ],
   "variable_elements": [],
@@ -133,13 +132,13 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.random.random_core": "Random Core",
       "death.attack.erased_from_existence": "%1$s has been erased from existence",
       "item.random.random_part_2": "Random Part 2",
       "item_group.random.random_part_2_tab": "R.A.N.D.O.M Part-2",
       "item.random.random_part_1": "Random Part 1",
       "item_group.random.random_part_1_tab": "R.A.N.D.O.M Part-1",
       "item.random.diy": "Destroy It",
-      "item.random.penis": "Penis",
       "death.attack.erased_from_existence.item": "%1$s has been erased from existence",
       "death.attack.erased_from_existence.player": "%1$s has been erased from existence"
     }
