@@ -25,7 +25,7 @@
           }
         ]
       },
-      "path": "~/PotatoKingOfGods"
+      "path": "~/PotatoKingOfGods/Diy"
     },
     {
       "name": "Diy",
@@ -39,7 +39,7 @@
           "src/main/resources/assets/random/models/item/diy.json"
         ]
       },
-      "path": "~/PotatoKingOfGods"
+      "path": "~/PotatoKingOfGods/Diy"
     },
     {
       "name": "ErasedFromExistence",
@@ -52,7 +52,7 @@
           "src/main/resources/data/random/damage_type/erased_from_existence.json"
         ]
       },
-      "path": "~/PotatoKingOfGods"
+      "path": "~/PotatoKingOfGods/Diy"
     },
     {
       "name": "RandomPart1",
@@ -66,7 +66,7 @@
           "src/main/resources/assets/random/models/item/random_part_1.json"
         ]
       },
-      "path": "~/BuildersDream"
+      "path": "~/BuildersDream/Tabs"
     },
     {
       "name": "RandomPart2",
@@ -80,7 +80,7 @@
           "src/main/java/net/mcreator/random/item/RandomPart2Item.java"
         ]
       },
-      "path": "~/PotatoKingOfGods"
+      "path": "~/PotatoKingOfGods/Tabs"
     },
     {
       "name": "RandomPart1Tab",
@@ -91,7 +91,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/BuildersDream"
+      "path": "~/BuildersDream/Tabs"
     },
     {
       "name": "RandomPart2Tab",
@@ -102,7 +102,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/PotatoKingOfGods"
+      "path": "~/PotatoKingOfGods/Tabs"
     },
     {
       "name": "Randomcorerecipe",
@@ -114,7 +114,8 @@
         "files": [
           "src/main/resources/data/random/recipe/randomcorerecipe.json"
         ]
-      }
+      },
+      "path": "~/Both/RandomCore"
     },
     {
       "name": "RandomCore",
@@ -127,7 +128,8 @@
           "src/main/resources/assets/random/models/item/random_core.json",
           "src/main/java/net/mcreator/random/item/RandomCoreItem.java"
         ]
-      }
+      },
+      "path": "~/Both/RandomCore"
     },
     {
       "name": "Direcipe",
@@ -140,7 +142,7 @@
           "src/main/resources/data/random/recipe/direcipe.json"
         ]
       },
-      "path": "~/PotatoKingOfGods"
+      "path": "~/PotatoKingOfGods/Diy"
     },
     {
       "name": "TheLuckyGodStatue",
@@ -177,11 +179,55 @@
         ]
       },
       "path": "~/BuildersDream/The Lucky God"
+    },
+    {
+      "name": "TheUnluckyGodStatue",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_unlucky_god_statue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/random/block/TheUnluckyGodStatueBlock.java",
+          "src/main/resources/assets/random/blockstates/the_unlucky_god_statue.json",
+          "src/main/resources/data/random/loot_table/blocks/the_unlucky_god_statue.json",
+          "src/main/resources/assets/random/models/item/the_unlucky_god_statue.json",
+          "src/main/resources/assets/random/models/block/the_unlucky_god_statue.json"
+        ]
+      },
+      "path": "~/BuildersDream/The Unlucky God"
+    },
+    {
+      "name": "ThaUnluckyGodStatueOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tha_unlucky_god_statue_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/random/procedures/ThaUnluckyGodStatueOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/BuildersDream/The Unlucky God"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TheUnluckyGodStatue",
+      "~CUSTOM:TheLuckyGodStatue"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:TheUnluckyGodStatue",
+      "~CUSTOM:TheLuckyGodStatue"
+    ],
     "ITEMS:mod:luckygoditems/level1": [
       "Items.DIAMOND_SWORD",
       "Items.DIAMOND_SHOVEL",
@@ -268,7 +314,8 @@
       "item_group.random.random_part_1_tab": "R.A.N.D.O.M Part-1",
       "item.random.diy": "Destroy It",
       "death.attack.erased_from_existence.item": "%1$s has been erased from existence",
-      "death.attack.erased_from_existence.player": "%1$s has been erased from existence"
+      "death.attack.erased_from_existence.player": "%1$s has been erased from existence",
+      "block.random.the_unlucky_god_statue": "The Lucky God Statue"
     }
   },
   "foldersRoot": {
@@ -276,13 +323,39 @@
     "children": [
       {
         "name": "PotatoKingOfGods",
-        "children": []
+        "children": [
+          {
+            "name": "Diy",
+            "children": []
+          },
+          {
+            "name": "Tabs",
+            "children": []
+          }
+        ]
       },
       {
         "name": "BuildersDream",
         "children": [
           {
             "name": "The Lucky God",
+            "children": []
+          },
+          {
+            "name": "The Unlucky God",
+            "children": []
+          },
+          {
+            "name": "Tabs",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Both",
+        "children": [
+          {
+            "name": "RandomCore",
             "children": []
           }
         ]

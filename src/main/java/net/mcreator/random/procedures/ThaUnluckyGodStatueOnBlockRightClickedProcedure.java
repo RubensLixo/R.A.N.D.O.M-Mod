@@ -15,7 +15,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.BuiltInRegistries;
 
-public class TheLuckyGodStatueOnBlockRightClickedProcedure {
+public class ThaUnluckyGodStatueOnBlockRightClickedProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;

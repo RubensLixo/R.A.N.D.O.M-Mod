@@ -25,6 +25,7 @@ public class RandomModItems {
 	public static final DeferredItem<Item> RANDOM_PART_2 = REGISTRY.register("random_part_2", RandomPart2Item::new);
 	public static final DeferredItem<Item> RANDOM_CORE = REGISTRY.register("random_core", RandomCoreItem::new);
 	public static final DeferredItem<Item> THE_LUCKY_GOD_STATUE = block(RandomModBlocks.THE_LUCKY_GOD_STATUE);
+	public static final DeferredItem<Item> THE_UNLUCKY_GOD_STATUE = block(RandomModBlocks.THE_UNLUCKY_GOD_STATUE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

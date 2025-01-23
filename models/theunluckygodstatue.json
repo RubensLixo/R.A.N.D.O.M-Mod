@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"1": "TheLuckyGodStatue",
+		"1": "TheUnuckyGodStatue",
 		"particle": "block/TheLuckyGodStatue"
 	},
 	"elements": [
@@ -85,19 +85,6 @@
 			}
 		},
 		{
-			"from": [10, 15, 9],
-			"to": [11, 16, 10],
-			"rotation": {"angle": 0, "axis": "y", "origin": [9, 15, 9]},
-			"faces": {
-				"north": {"uv": [8.5, 1, 8.75, 1.25], "texture": "#1"},
-				"east": {"uv": [1.25, 8.5, 1.5, 8.75], "texture": "#1"},
-				"south": {"uv": [8.5, 1.25, 8.75, 1.5], "texture": "#1"},
-				"west": {"uv": [1.5, 8.5, 1.75, 8.75], "texture": "#1"},
-				"up": {"uv": [8.75, 2, 8.5, 1.75], "texture": "#1"},
-				"down": {"uv": [8.75, 4.5, 8.5, 4.75], "texture": "#1"}
-			}
-		},
-		{
 			"from": [6, 15, 5],
 			"to": [7, 16, 7],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 15, 7]},
@@ -134,32 +121,6 @@
 				"west": {"uv": [8.25, 8, 8.75, 8.25], "texture": "#1"},
 				"up": {"uv": [8.25, 8.25, 7.75, 7.75], "texture": "#1"},
 				"down": {"uv": [8.5, 5.5, 8, 6], "texture": "#1"}
-			}
-		},
-		{
-			"from": [5, 15, 6],
-			"to": [6, 16, 7],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 15, 7]},
-			"faces": {
-				"north": {"uv": [8.5, 5.75, 8.75, 6], "texture": "#1"},
-				"east": {"uv": [8.5, 6.5, 8.75, 6.75], "texture": "#1"},
-				"south": {"uv": [8.5, 6.75, 8.75, 7], "texture": "#1"},
-				"west": {"uv": [8.5, 7, 8.75, 7.25], "texture": "#1"},
-				"up": {"uv": [8.75, 7.5, 8.5, 7.25], "texture": "#1"},
-				"down": {"uv": [8.75, 7.5, 8.5, 7.75], "texture": "#1"}
-			}
-		},
-		{
-			"from": [10, 15, 6],
-			"to": [11, 16, 7],
-			"rotation": {"angle": 0, "axis": "y", "origin": [12, 15, 7]},
-			"faces": {
-				"north": {"uv": [7.75, 8.5, 8, 8.75], "texture": "#1"},
-				"east": {"uv": [8, 8.5, 8.25, 8.75], "texture": "#1"},
-				"south": {"uv": [8.25, 8.5, 8.5, 8.75], "texture": "#1"},
-				"west": {"uv": [8.5, 8.25, 8.75, 8.5], "texture": "#1"},
-				"up": {"uv": [8.75, 8.75, 8.5, 8.5], "texture": "#1"},
-				"down": {"uv": [0.25, 8.75, 0, 9], "texture": "#1"}
 			}
 		}
 	],
@@ -201,10 +162,10 @@
 	},
 	"groups": [
 		{
-			"name": "TheLuckyGod",
+			"name": "TheUnluckyGod",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8]
 		}
 	]
 }

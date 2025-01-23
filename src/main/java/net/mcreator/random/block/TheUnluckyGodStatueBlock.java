@@ -33,11 +33,11 @@ import net.minecraft.core.BlockPos;
 
 import net.mcreator.random.procedures.TheLuckyGodStatueOnBlockRightClickedProcedure;
 
-public class TheLuckyGodStatueBlock extends Block implements SimpleWaterloggedBlock {
+public class TheUnluckyGodStatueBlock extends Block implements SimpleWaterloggedBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-	public TheLuckyGodStatueBlock() {
+	public TheUnluckyGodStatueBlock() {
 		super(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
