@@ -16,6 +16,10 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -124,6 +128,19 @@
           "src/main/java/net/mcreator/random/item/RandomCoreItem.java"
         ]
       }
+    },
+    {
+      "name": "Direcipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "direcipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random/recipe/direcipe.json"
+        ]
+      },
+      "path": "~/PotatoKingOfGods"
     }
   ],
   "variable_elements": [],
@@ -132,6 +149,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.random.random_core": "Random Core",
       "death.attack.erased_from_existence": "%1$s has been erased from existence",
       "item.random.random_part_2": "Random Part 2",
       "item_group.random.random_part_2_tab": "R.A.N.D.O.M Part-2",

@@ -34,7 +34,7 @@ public class DiyItem extends Item {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		DiyRightclickedProcedure.execute(world, entity);
+		DiyRightclickedProcedure.execute(world, entity, ar.getObject());
 		return ar;
 	}
 }

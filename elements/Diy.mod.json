@@ -9,7 +9,11 @@
     "states": [],
     "name": "Destroy It",
     "rarity": "EPIC",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:RandomPart2Tab"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
