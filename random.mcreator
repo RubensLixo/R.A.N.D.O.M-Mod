@@ -111,6 +111,19 @@
           "src/main/resources/data/random/recipe/randomcorerecipe.json"
         ]
       }
+    },
+    {
+      "name": "RandomCore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_core",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random/models/item/random_core.json",
+          "src/main/java/net/mcreator/random/item/RandomCoreItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
