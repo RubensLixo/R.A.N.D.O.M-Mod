@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[4,)"
-license="Not specified"
+license="MIT License"
 
 [[mods]]
 modId="random"
 version="1.0.0"
 displayName="R.A.N.D.O.M"
-displayURL="https://mcreator.net"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="admda, MCreator"
+displayURL="https://github.com/RubensLixo/R.A.N.D.O.M-Mod"
+credits="https://github.com/RubensLixo/R.A.N.D.O.M-Mod"
+authors="BuildersDream, PotatoKingOfGods"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -28,6 +28,18 @@ ordering="AFTER"
 side="BOTH"
 
 
+[[dependencies.random]]
+modId="curios_api"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.random]]
+modId="geckolib"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
 
 
 # Start of user code block dependencies configuration

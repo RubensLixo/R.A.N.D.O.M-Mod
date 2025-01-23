@@ -1,0 +1,23 @@
+repositories {
+maven {
+  url = "https://cursemaven.com"
+  }
+}
+
+dependencies {
+  runtimeOnly "curse.maven:adorned-1036809:5740650"
+  compileOnly "curse.maven:adorned-1036809:5740650"
+}
+
+
+repositories {
+  maven {
+      url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+  }
+}
+
+dependencies {
+  implementation 'software.bernie.geckolib:geckolib-neoforge-1.21.1:4.6.6'
+}
+
+

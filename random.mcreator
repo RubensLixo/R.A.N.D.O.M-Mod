@@ -15,15 +15,19 @@
     "modid": "random",
     "modName": "R.A.N.D.O.M",
     "version": "1.0.0",
-    "author": "admda, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "author": "BuildersDream, PotatoKingOfGods",
+    "websiteURL": "https://github.com/RubensLixo/R.A.N.D.O.M-Mod",
+    "license": "MIT License",
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios_api",
+      "geckolib"
+    ],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "https://github.com/RubensLixo/R.A.N.D.O.M-Mod",
     "modElementsPackage": "net.mcreator.random"
   },
   "mcreatorVersion": 202400342716
