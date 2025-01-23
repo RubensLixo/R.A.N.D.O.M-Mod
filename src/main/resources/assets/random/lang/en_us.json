@@ -1,1 +1,6 @@
-{}
+{
+  "death.attack.erased_from_existence": "%1$s has been erased from existence",
+  "item.random.diy": "Destroy It",
+  "death.attack.erased_from_existence.item": "%1$s has been erased from existence",
+  "death.attack.erased_from_existence.player": "%1$s has been erased from existence"
+}

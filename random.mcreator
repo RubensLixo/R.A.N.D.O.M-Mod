@@ -1,11 +1,67 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "ErasedFromExistence",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erased_from_existence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random/damage_type/erased_from_existence.json"
+        ]
+      },
+      "path": "~/PotatoKingOfGods"
+    },
+    {
+      "name": "DiyRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diy_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/random/procedures/DiyRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/PotatoKingOfGods"
+    },
+    {
+      "name": "Diy",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/random/item/DiyItem.java",
+          "src/main/resources/assets/random/models/item/diy.json"
+        ]
+      },
+      "path": "~/PotatoKingOfGods"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "death.attack.erased_from_existence": "%1$s has been erased from existence",
+      "item.random.diy": "Destroy It",
+      "death.attack.erased_from_existence.item": "%1$s has been erased from existence",
+      "death.attack.erased_from_existence.player": "%1$s has been erased from existence"
+    }
   },
   "foldersRoot": {
     "name": "~",
