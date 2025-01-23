@@ -111,6 +111,20 @@
           "src/main/resources/data/random/recipe/randomcorerecipe.json"
         ]
       }
+    },
+    {
+      "name": "Penis",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "penis",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random/models/item/penis.json",
+          "src/main/java/net/mcreator/random/item/PenisItem.java"
+        ]
+      },
+      "path": "~/BuildersDream"
     }
   ],
   "variable_elements": [],
@@ -125,6 +139,7 @@
       "item.random.random_part_1": "Random Part 1",
       "item_group.random.random_part_1_tab": "R.A.N.D.O.M Part-1",
       "item.random.diy": "Destroy It",
+      "item.random.penis": "Penis",
       "death.attack.erased_from_existence.item": "%1$s has been erased from existence",
       "death.attack.erased_from_existence.player": "%1$s has been erased from existence"
     }
