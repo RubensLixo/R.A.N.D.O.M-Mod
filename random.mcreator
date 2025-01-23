@@ -141,6 +141,23 @@
         ]
       },
       "path": "~/PotatoKingOfGods"
+    },
+    {
+      "name": "TheLuckyGodStatue",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_lucky_god_statue",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/random/block/TheLuckyGodStatueBlock.java",
+          "src/main/resources/assets/random/models/block/the_lucky_god_statue.json",
+          "src/main/resources/assets/random/blockstates/the_lucky_god_statue.json",
+          "src/main/resources/assets/random/models/item/the_lucky_god_statue.json",
+          "src/main/resources/data/random/loot_table/blocks/the_lucky_god_statue.json"
+        ]
+      },
+      "path": "~/BuildersDream/The Lucky God"
     }
   ],
   "variable_elements": [],
@@ -150,6 +167,7 @@
   "language_map": {
     "en_us": {
       "item.random.random_core": "Random Core",
+      "block.random.the_lucky_god_statue": "The Lucky God Statue",
       "death.attack.erased_from_existence": "%1$s has been erased from existence",
       "item.random.random_part_2": "Random Part 2",
       "item_group.random.random_part_2_tab": "R.A.N.D.O.M Part-2",

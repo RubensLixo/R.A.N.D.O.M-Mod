@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.random.init.RandomModTabs;
 import net.mcreator.random.init.RandomModItems;
+import net.mcreator.random.init.RandomModBlocks;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -38,6 +39,8 @@ public class RandomMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		RandomModBlocks.REGISTRY.register(modEventBus);
 
 		RandomModItems.REGISTRY.register(modEventBus);
 

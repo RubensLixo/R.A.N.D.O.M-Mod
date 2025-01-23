@@ -1,0 +1,9 @@
+{
+  "parent": "random:custom/theluckygodstatue",
+  "textures": {
+    "all": "random:block/theluckygodstatue",
+    "particle": "random:block/theluckygodstatue",
+    "0": "random:block/theluckygodstatue"
+  },
+  "render_type": "solid"
+}
