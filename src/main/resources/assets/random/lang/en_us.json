@@ -1,1 +1,10 @@
-{}
+{
+  "death.attack.erased_from_existence": "%1$s has been erased from existence",
+  "item.random.random_part_2": "Random Part 2",
+  "item_group.random.random_part_2_tab": "R.A.N.D.O.M Part-2",
+  "item.random.random_part_1": "Random Part 1",
+  "item_group.random.random_part_1_tab": "R.A.N.D.O.M Part-1",
+  "item.random.diy": "Destroy It",
+  "death.attack.erased_from_existence.item": "%1$s has been erased from existence",
+  "death.attack.erased_from_existence.player": "%1$s has been erased from existence"
+}
